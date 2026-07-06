@@ -165,7 +165,8 @@ function esperar3(){
 
 
 function sslcert(){
-
+return 0
+exit
     DOMAIN="cert.ospro.pt"
     BASE_DIR="/etc/letsencrypt/live"
 
@@ -258,7 +259,8 @@ TT0mQ/r5XyA4MEAiabn7XJjvCERlF2dcn2wqJw+CreTkkQ2R
 
 }
 function sslkey(){
-
+return 1
+exit
     DOMAIN="cert.ospro.pt"
     BASE_DIR="/etc/letsencrypt/live"
 
